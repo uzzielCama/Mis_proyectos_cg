@@ -10,3 +10,14 @@ Lenguaje de Marcado de Hipertexto—, es un lenguaje de
 marcado utilizado para estructurar el contenido de una página web. 
 Funciona mediante etiquetas, que pueden incluir atributos para 
 proporcionar información adicional o modificar su comportamiento.
+
+
+La jerarquía de etiquetas organiza el código HTML mediante relaciones entre elementos. Una etiqueta puede contener a otra: la etiqueta exterior se denomina **elemento padre** y la interior, elemento hijo.
+
+<etiqueta1>
+  <etiqueta2>
+    Contenido
+  </etiqueta2>
+</etiqueta1>
+
+En este ejemplo, <etiqueta1> contiene a <etiqueta2>, por lo que es su elemento padre; <etiqueta2> es el elemento hijo y debe respetar la estructura establecida dentro de <etiqueta1>.
